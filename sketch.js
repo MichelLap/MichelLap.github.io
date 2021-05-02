@@ -1,11 +1,12 @@
 function setup() {
-  createCanvas(401, 401);
+  createCanvas(400, 400);
 }
-let x=0;
+
 function draw() {
-  if (x<401) {
-    background(255);
-    circle(200, 200, x);
-    x += 1;
-  } 
+  if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+  ellipse(mouseX, mouseY, 80, 80);
 }
