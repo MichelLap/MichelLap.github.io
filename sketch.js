@@ -6,5 +6,9 @@ function setup() {
 
 function draw() {
   ellipse(x, height/2, 20, 20);
-  x = x + 1;
+  if (x==width) {
+    x = 0;
+  } else {
+    x =x + 1
+  }
 }
