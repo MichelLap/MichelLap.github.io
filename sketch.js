@@ -6,8 +6,8 @@ function setup() {
 
 function draw() {
   background(0, 100, 200);
-  fill(120);
-  rect(20,20,200,200);
+  //fill(120);
+  //rect(20,20,200,200);
   fill(0);
   text("width before Canvas: "+w+" / "+h,40,40);
   text("width after Canvas: "+width+" / "+height,40,60);
