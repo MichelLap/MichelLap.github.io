@@ -17,7 +17,7 @@ function draw() {
   text("width after Canvas: "+width+" / "+height,40,60);
   text("displayWidth: "+displayWidth+" / "+displayHeight,40,80);
   text("windowWidth: "+windowWidth+" / "+windowHeight,40,100);
-  text("pixelDensity/displayDensity: "+pixelDensity()+" / "+displayDensity(),10,110);
+  text("pixelDensity/displayDensity: "+pixelDensity()+" / "+displayDensity(),40,120);
 }
 
 function windowResized() {
