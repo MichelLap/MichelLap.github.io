@@ -4,7 +4,7 @@ let h;
 function setup() {
   w = width;
   h = height;
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth-20, windowHeight-20);
 }
 
 function draw() {
